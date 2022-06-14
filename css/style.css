@@ -1,0 +1,72 @@
+h1, h2, h3, h4 {
+    color: orange;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow:1px 1px 2px black;
+}
+h1 {
+    font-size: 32px;
+}
+h2 {
+    font-size: 26px;
+}
+h3 {
+    font-size: 20px;
+}
+li {
+    color:black;
+    font-size: 20px;
+}
+body {
+    margin: 1em;
+    background-color: grey;
+}
+.header {
+    width: 100%;
+    height: 300px;
+}
+.header-left {
+    width: 50%;
+    float: left;
+}
+.header-right {
+    width: 50%;   
+    float: right; 
+}
+.contacts, .education, .languages, .code {
+    width: 100%;
+    overflow: auto;
+}
+.contacts-left, .education-left, .languages-left, .code-left {
+    width: 50%;
+    float: left;
+    position: relative;
+    left: 20%;
+}
+.contacts-right, .education-right, .languages-right, .code-right {
+    width: 50%;   
+    float: right; 
+}
+.code-right {
+    white-space: pre;
+    background-color:white;
+    text-align: left;
+}
+.foto {
+    height: 257px;
+    width: 200px; 
+    margin: 0;
+    position: relative;
+    left: 20%;
+    box-shadow: 2px 2px 2px 2px rgba(32, 23, 23, 0.5)
+}
+.nav_img, .github_img {
+width: 80px;    
+}
+
+.link {
+    list-style: none;
+    display: flex;
+}
+.link li {
+    margin: 0 5px;
+}
